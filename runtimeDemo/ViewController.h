@@ -7,9 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UILabel+Color.h"
+
+@protocol TestDelegate <NSObject>
+
+- (void)test;
+
+@end
 
 @interface ViewController : UIViewController
-
-
+@property (nonatomic , weak) id<TestDelegate> delegate;
 @end
 

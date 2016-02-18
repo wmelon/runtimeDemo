@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import <Fabric/Fabric.h>
+#import <Crashlytics/Crashlytics.h>
+#import <Bugly/CrashReporter.h>
 
 @interface AppDelegate ()
 
@@ -16,8 +19,21 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+//    [Fabric with:@[[Crashlytics class]]];
+//    // Override point for customization after application launch.
+//    // TODO: Move this to where you establish a user session
+//    [self logUser];
+[[CrashReporter sharedInstance] installWithAppId:@"900017688"];
+//    [self performSelector:@selector(crash) withObject:nil afterDelay:3.0];
+    
     return YES;
+}
+- (void) logUser {
+    // TODO: Use the current user's information
+    // You can call any combination of these three methods
+    [CrashlyticsKit setUserIdentifier:@"com.watermelon.runtimeDemo"];
+    [CrashlyticsKit setUserEmail:@"511863244@qq.com"];
+    [CrashlyticsKit setUserName:@"陈仕家"];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

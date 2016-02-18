@@ -15,6 +15,12 @@
 		1901CD571C3F4AD6008179B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1901CD551C3F4AD6008179B0 /* LaunchScreen.storyboard */; };
 		1901CD621C3F4AD6008179B0 /* runtimeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1901CD611C3F4AD6008179B0 /* runtimeDemoTests.m */; };
 		1901CD6D1C3F4AD6008179B0 /* runtimeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1901CD6C1C3F4AD6008179B0 /* runtimeDemoUITests.m */; };
+		1901CD7C1C3F53B7008179B0 /* UILabel+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 1901CD7B1C3F53B7008179B0 /* UILabel+Color.m */; };
+		190841891C43508600885D9E /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 190841871C43508600885D9E /* Fabric.framework */; };
+		1908418A1C43508600885D9E /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 190841881C43508600885D9E /* Crashlytics.framework */; };
+		19F44A881C44F50400FE173C /* Bugly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F44A871C44F50400FE173C /* Bugly.framework */; };
+		19F44A8A1C44F51A00FE173C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F44A891C44F51A00FE173C /* SystemConfiguration.framework */; };
+		19F44A8C1C44F52600FE173C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F44A8B1C44F52600FE173C /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,13 @@
 		1901CD681C3F4AD6008179B0 /* runtimeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = runtimeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1901CD6C1C3F4AD6008179B0 /* runtimeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = runtimeDemoUITests.m; sourceTree = "<group>"; };
 		1901CD6E1C3F4AD6008179B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1901CD7A1C3F53B7008179B0 /* UILabel+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Color.h"; sourceTree = "<group>"; };
+		1901CD7B1C3F53B7008179B0 /* UILabel+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Color.m"; sourceTree = "<group>"; };
+		190841871C43508600885D9E /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		190841881C43508600885D9E /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		19F44A871C44F50400FE173C /* Bugly.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bugly.framework; sourceTree = "<group>"; };
+		19F44A891C44F51A00FE173C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		19F44A8B1C44F52600FE173C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19F44A8C1C44F52600FE173C /* Security.framework in Frameworks */,
+				19F44A8A1C44F51A00FE173C /* SystemConfiguration.framework in Frameworks */,
+				19F44A881C44F50400FE173C /* Bugly.framework in Frameworks */,
+				1908418A1C43508600885D9E /* Crashlytics.framework in Frameworks */,
+				190841891C43508600885D9E /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +99,8 @@
 		1901CD3B1C3F4AD5008179B0 = {
 			isa = PBXGroup;
 			children = (
+				19F44A8B1C44F52600FE173C /* Security.framework */,
+				19F44A891C44F51A00FE173C /* SystemConfiguration.framework */,
 				1901CD461C3F4AD5008179B0 /* runtimeDemo */,
 				1901CD601C3F4AD6008179B0 /* runtimeDemoTests */,
 				1901CD6B1C3F4AD6008179B0 /* runtimeDemoUITests */,
@@ -101,6 +121,9 @@
 		1901CD461C3F4AD5008179B0 /* runtimeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				19F44A871C44F50400FE173C /* Bugly.framework */,
+				190841871C43508600885D9E /* Fabric.framework */,
+				190841881C43508600885D9E /* Crashlytics.framework */,
 				1901CD4A1C3F4AD5008179B0 /* AppDelegate.h */,
 				1901CD4B1C3F4AD5008179B0 /* AppDelegate.m */,
 				1901CD4D1C3F4AD5008179B0 /* ViewController.h */,
@@ -110,6 +133,8 @@
 				1901CD551C3F4AD6008179B0 /* LaunchScreen.storyboard */,
 				1901CD581C3F4AD6008179B0 /* Info.plist */,
 				1901CD471C3F4AD5008179B0 /* Supporting Files */,
+				1901CD7A1C3F53B7008179B0 /* UILabel+Color.h */,
+				1901CD7B1C3F53B7008179B0 /* UILabel+Color.m */,
 			);
 			path = runtimeDemo;
 			sourceTree = "<group>";
@@ -150,6 +175,7 @@
 				1901CD401C3F4AD5008179B0 /* Sources */,
 				1901CD411C3F4AD5008179B0 /* Frameworks */,
 				1901CD421C3F4AD5008179B0 /* Resources */,
+				190841861C434FA500885D9E /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -207,6 +233,7 @@
 				TargetAttributes = {
 					1901CD431C3F4AD5008179B0 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = WZCA99V8R2;
 					};
 					1901CD5C1C3F4AD6008179B0 = {
 						CreatedOnToolsVersion = 7.2;
@@ -265,6 +292,22 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		190841861C434FA500885D9E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run f76f8cc114745aa21a550b1169db00c3843cd9e5 aa8f53745f4036b4ebbeb57d668d668881e47698e3eba2867fded181d33e72b4";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1901CD401C3F4AD5008179B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -272,6 +315,7 @@
 			files = (
 				1901CD4F1C3F4AD5008179B0 /* ViewController.m in Sources */,
 				1901CD4C1C3F4AD5008179B0 /* AppDelegate.m in Sources */,
+				1901CD7C1C3F53B7008179B0 /* UILabel+Color.m in Sources */,
 				1901CD491C3F4AD5008179B0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +457,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/runtimeDemo",
+				);
 				INFOPLIST_FILE = runtimeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.watermelon.runtimeDemo;
@@ -424,6 +474,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/runtimeDemo",
+				);
 				INFOPLIST_FILE = runtimeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.watermelon.runtimeDemo;
@@ -498,6 +553,7 @@
 				1901CD731C3F4AD6008179B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1901CD741C3F4AD6008179B0 /* Build configuration list for PBXNativeTarget "runtimeDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +562,7 @@
 				1901CD761C3F4AD6008179B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1901CD771C3F4AD6008179B0 /* Build configuration list for PBXNativeTarget "runtimeDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +571,7 @@
 				1901CD791C3F4AD6008179B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
