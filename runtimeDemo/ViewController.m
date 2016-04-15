@@ -7,8 +7,9 @@
 //
 
 #import "ViewController.h"
+#import <objc/runtime.h>
 #import <Crashlytics/Crashlytics.h>
-
+#import "TestViewController.h"
 
 @interface ViewController ()<TestDelegate>
 
@@ -16,8 +17,12 @@
 
 @implementation ViewController
 
-- (void)test{
-    NSLog(@"test");
+//- (void)test{
+//    NSLog(@"test");
+//}
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    TestViewController * vc = [TestViewController new];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)viewDidLoad {
@@ -30,24 +35,20 @@
     
     
     
-    
-//    NSArray * array = @[@"1"];
-//    NSLog(@"%@" , array[2]);
-    
-    self.delegate = self;
-    [self.delegate test];
-    
+//    self.delegate = self;
+//    [self.delegate test];
+//    
     UILabel * label = [[UILabel alloc] initWithFrame:CGRectMake(100, 100, 200, 200)];
     [label setFlashColor:[UIColor redColor]];
     label.backgroundColor = label.FlashColor;
     [self.view addSubview:label];
-    
-    
-    UIButton* button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    button.frame = CGRectMake(20, 50, 100, 30);
-    [button setTitle:@"Crash" forState:UIControlStateNormal];
-    [button addTarget:self action:@selector(crashButtonTapped:) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:button];
+//
+//    
+//    UIButton* button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+//    button.frame = CGRectMake(20, 50, 100, 30);
+//    [button setTitle:@"Crash" forState:UIControlStateNormal];
+//    [button addTarget:self action:@selector(crashButtonTapped:) forControlEvents:UIControlEventTouchUpInside];
+//    [self.view addSubview:button];
 }
 
 - (IBAction)crashButtonTapped:(id)sender {

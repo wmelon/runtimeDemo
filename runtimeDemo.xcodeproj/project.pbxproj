@@ -18,6 +18,8 @@
 		1901CD7C1C3F53B7008179B0 /* UILabel+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 1901CD7B1C3F53B7008179B0 /* UILabel+Color.m */; };
 		190841891C43508600885D9E /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 190841871C43508600885D9E /* Fabric.framework */; };
 		1908418A1C43508600885D9E /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 190841881C43508600885D9E /* Crashlytics.framework */; };
+		19C2426B1C7EE8F600032773 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C2426A1C7EE8F600032773 /* TestViewController.m */; };
+		19CFC97D1C8538E800CBA0A5 /* PersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CFC97C1C8538E800CBA0A5 /* PersonModel.m */; };
 		19F44A881C44F50400FE173C /* Bugly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F44A871C44F50400FE173C /* Bugly.framework */; };
 		19F44A8A1C44F51A00FE173C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F44A891C44F51A00FE173C /* SystemConfiguration.framework */; };
 		19F44A8C1C44F52600FE173C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F44A8B1C44F52600FE173C /* Security.framework */; };
@@ -61,6 +63,10 @@
 		1901CD7B1C3F53B7008179B0 /* UILabel+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Color.m"; sourceTree = "<group>"; };
 		190841871C43508600885D9E /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		190841881C43508600885D9E /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		19C242691C7EE8F600032773 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		19C2426A1C7EE8F600032773 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		19CFC97B1C8538E800CBA0A5 /* PersonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonModel.h; sourceTree = "<group>"; };
+		19CFC97C1C8538E800CBA0A5 /* PersonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonModel.m; sourceTree = "<group>"; };
 		19F44A871C44F50400FE173C /* Bugly.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bugly.framework; sourceTree = "<group>"; };
 		19F44A891C44F51A00FE173C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		19F44A8B1C44F52600FE173C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -99,6 +105,10 @@
 		1901CD3B1C3F4AD5008179B0 = {
 			isa = PBXGroup;
 			children = (
+				19CFC97B1C8538E800CBA0A5 /* PersonModel.h */,
+				19CFC97C1C8538E800CBA0A5 /* PersonModel.m */,
+				19C242691C7EE8F600032773 /* TestViewController.h */,
+				19C2426A1C7EE8F600032773 /* TestViewController.m */,
 				19F44A8B1C44F52600FE173C /* Security.framework */,
 				19F44A891C44F51A00FE173C /* SystemConfiguration.framework */,
 				1901CD461C3F4AD5008179B0 /* runtimeDemo */,
@@ -313,10 +323,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19CFC97D1C8538E800CBA0A5 /* PersonModel.m in Sources */,
 				1901CD4F1C3F4AD5008179B0 /* ViewController.m in Sources */,
 				1901CD4C1C3F4AD5008179B0 /* AppDelegate.m in Sources */,
 				1901CD7C1C3F53B7008179B0 /* UILabel+Color.m in Sources */,
 				1901CD491C3F4AD5008179B0 /* main.m in Sources */,
+				19C2426B1C7EE8F600032773 /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
