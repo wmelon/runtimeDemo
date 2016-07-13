@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>MyFirstFramework.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>runtimeDemo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>1901CD671C3F4AD6008179B0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>199ACAC41CC0F5F9009B9B9F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

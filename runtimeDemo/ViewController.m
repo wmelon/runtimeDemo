@@ -11,6 +11,11 @@
 #import <Crashlytics/Crashlytics.h>
 #import "TestViewController.h"
 
+#import <CoreImage/CoreImage.h>
+#import <CoreText/CoreText.h>
+#import <QuartzCore/QuartzCore.h>
+#import <CoreGraphics/CoreGraphics.h>
+
 @interface ViewController ()<TestDelegate>
 
 @end
