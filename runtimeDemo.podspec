@@ -14,13 +14,13 @@ s.version      = "0.0.1"
 s.summary      = "这是一个测试cocopods的小Demo"
 
 
-s.description  = "safdgfgfgfgfgfgf"
+s.description  = "safdgfgfgfgfgfgfdsadsdsdssfsfdfdfefewdwfe"
 
 s.homepage     = "https://github.com/wmelon/runtimeDemo"
 # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
-s.license      = "MIT"
-# s.license      = { :type => "MIT", :file => "LICENSE" }
+#s.license      = "MIT"
+s.license      = { :type => "MIT", :file => "LICENSE" }
 
 
 # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -71,8 +71,8 @@ s.source       = { :git => "https://github.com/wmelon/runtimeDemo", :tag => "0.0
 #  Not including the public_header_files will make all headers public.
 #
 
-s.source_files  = "runtimeDemo", "runtimeDemo/**/*.{h,m}"
-s.exclude_files = "runtimeDemo/*.{h}"
+s.source_files  = "watermelon/*.{h,m}"
+s.exclude_files = "watermelon/*.{h}"
 
 # s.public_header_files = "runtimeDemo/*.{h}"
 
@@ -98,7 +98,7 @@ s.exclude_files = "runtimeDemo/*.{h}"
 #
 
 # s.framework  = "SomeFramework"
-# s.frameworks = "SomeFramework", "AnotherFramework"
+s.frameworks = "Foundation", "CoreFoundation"
 
 # s.library   = "iconv"
 # s.libraries = "iconv", "xml2"

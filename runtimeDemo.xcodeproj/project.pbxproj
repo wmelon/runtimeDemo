@@ -25,6 +25,7 @@
 		19F44A8A1C44F51A00FE173C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F44A891C44F51A00FE173C /* SystemConfiguration.framework */; };
 		19F44A8C1C44F52600FE173C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F44A8B1C44F52600FE173C /* Security.framework */; };
 		19FA180C1D7FC03F0013493F /* runtimeDemo.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 19FA180B1D7FC03F0013493F /* runtimeDemo.podspec */; };
+		19FA18101D7FE2BB0013493F /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FA180F1D7FE2BB0013493F /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,8 @@
 		19F44A891C44F51A00FE173C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		19F44A8B1C44F52600FE173C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		19FA180B1D7FC03F0013493F /* runtimeDemo.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = runtimeDemo.podspec; sourceTree = "<group>"; };
+		19FA180E1D7FE2BB0013493F /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		19FA180F1D7FE2BB0013493F /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,7 @@
 		1901CD3B1C3F4AD5008179B0 = {
 			isa = PBXGroup;
 			children = (
+				19FA180D1D7FE2170013493F /* watermelon */,
 				19FA180B1D7FC03F0013493F /* runtimeDemo.podspec */,
 				19CFC97B1C8538E800CBA0A5 /* PersonModel.h */,
 				19CFC97C1C8538E800CBA0A5 /* PersonModel.m */,
@@ -188,6 +192,15 @@
 				199ACAC91CC0F5F9009B9B9F /* Info.plist */,
 			);
 			path = MyFirstFramework;
+			sourceTree = "<group>";
+		};
+		19FA180D1D7FE2170013493F /* watermelon */ = {
+			isa = PBXGroup;
+			children = (
+				19FA180E1D7FE2BB0013493F /* Test.h */,
+				19FA180F1D7FE2BB0013493F /* Test.m */,
+			);
+			path = watermelon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,6 +339,7 @@
 				1901CD4F1C3F4AD5008179B0 /* ViewController.m in Sources */,
 				1901CD4C1C3F4AD5008179B0 /* AppDelegate.m in Sources */,
 				1901CD7C1C3F53B7008179B0 /* UILabel+Color.m in Sources */,
+				19FA18101D7FE2BB0013493F /* Test.m in Sources */,
 				1901CD491C3F4AD5008179B0 /* main.m in Sources */,
 				19C2426B1C7EE8F600032773 /* TestViewController.m in Sources */,
 			);
