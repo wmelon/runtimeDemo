@@ -25,9 +25,9 @@
 		19F44A8A1C44F51A00FE173C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F44A891C44F51A00FE173C /* SystemConfiguration.framework */; };
 		19F44A8C1C44F52600FE173C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F44A8B1C44F52600FE173C /* Security.framework */; };
 		19FA180C1D7FC03F0013493F /* runtimeDemo.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 19FA180B1D7FC03F0013493F /* runtimeDemo.podspec */; };
-		19FA18101D7FE2BB0013493F /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FA180F1D7FE2BB0013493F /* Test.m */; };
 		19FA18131D801ED70013493F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 19FA18111D801ED70013493F /* LICENSE */; };
 		19FA18141D801ED70013493F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 19FA18121D801ED70013493F /* README.md */; };
+		19FA18171D8035E40013493F /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FA18161D8035E40013493F /* Utility.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,10 +84,10 @@
 		19F44A891C44F51A00FE173C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		19F44A8B1C44F52600FE173C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		19FA180B1D7FC03F0013493F /* runtimeDemo.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = runtimeDemo.podspec; sourceTree = "<group>"; };
-		19FA180E1D7FE2BB0013493F /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
-		19FA180F1D7FE2BB0013493F /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		19FA18111D801ED70013493F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		19FA18121D801ED70013493F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		19FA18151D8035E40013493F /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		19FA18161D8035E40013493F /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,8 +203,8 @@
 		19FA180D1D7FE2170013493F /* watermelon */ = {
 			isa = PBXGroup;
 			children = (
-				19FA180E1D7FE2BB0013493F /* Test.h */,
-				19FA180F1D7FE2BB0013493F /* Test.m */,
+				19FA18151D8035E40013493F /* Utility.h */,
+				19FA18161D8035E40013493F /* Utility.m */,
 			);
 			path = watermelon;
 			sourceTree = "<group>";
@@ -346,7 +346,7 @@
 				1901CD4F1C3F4AD5008179B0 /* ViewController.m in Sources */,
 				1901CD4C1C3F4AD5008179B0 /* AppDelegate.m in Sources */,
 				1901CD7C1C3F53B7008179B0 /* UILabel+Color.m in Sources */,
-				19FA18101D7FE2BB0013493F /* Test.m in Sources */,
+				19FA18171D8035E40013493F /* Utility.m in Sources */,
 				1901CD491C3F4AD5008179B0 /* main.m in Sources */,
 				19FA18141D801ED70013493F /* README.md in Sources */,
 				19C2426B1C7EE8F600032773 /* TestViewController.m in Sources */,
