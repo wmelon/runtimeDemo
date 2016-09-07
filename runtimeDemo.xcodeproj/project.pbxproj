@@ -24,6 +24,7 @@
 		19F44A881C44F50400FE173C /* Bugly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F44A871C44F50400FE173C /* Bugly.framework */; };
 		19F44A8A1C44F51A00FE173C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F44A891C44F51A00FE173C /* SystemConfiguration.framework */; };
 		19F44A8C1C44F52600FE173C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F44A8B1C44F52600FE173C /* Security.framework */; };
+		19FA180C1D7FC03F0013493F /* runtimeDemo.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 19FA180B1D7FC03F0013493F /* runtimeDemo.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		19F44A871C44F50400FE173C /* Bugly.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bugly.framework; sourceTree = "<group>"; };
 		19F44A891C44F51A00FE173C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		19F44A8B1C44F52600FE173C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		19FA180B1D7FC03F0013493F /* runtimeDemo.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = runtimeDemo.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 		1901CD3B1C3F4AD5008179B0 = {
 			isa = PBXGroup;
 			children = (
+				19FA180B1D7FC03F0013493F /* runtimeDemo.podspec */,
 				19CFC97B1C8538E800CBA0A5 /* PersonModel.h */,
 				19CFC97C1C8538E800CBA0A5 /* PersonModel.m */,
 				19C242691C7EE8F600032773 /* TestViewController.h */,
@@ -282,6 +285,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19FA180C1D7FC03F0013493F /* runtimeDemo.podspec in Resources */,
 				1901CD571C3F4AD6008179B0 /* LaunchScreen.storyboard in Resources */,
 				1901CD541C3F4AD6008179B0 /* Assets.xcassets in Resources */,
 				1901CD521C3F4AD6008179B0 /* Main.storyboard in Resources */,
@@ -552,6 +556,7 @@
 				199ACAD01CC0F5F9009B9B9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
