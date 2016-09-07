@@ -26,6 +26,8 @@
 		19F44A8C1C44F52600FE173C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F44A8B1C44F52600FE173C /* Security.framework */; };
 		19FA180C1D7FC03F0013493F /* runtimeDemo.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 19FA180B1D7FC03F0013493F /* runtimeDemo.podspec */; };
 		19FA18101D7FE2BB0013493F /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FA180F1D7FE2BB0013493F /* Test.m */; };
+		19FA18131D801ED70013493F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 19FA18111D801ED70013493F /* LICENSE */; };
+		19FA18141D801ED70013493F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 19FA18121D801ED70013493F /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +86,8 @@
 		19FA180B1D7FC03F0013493F /* runtimeDemo.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = runtimeDemo.podspec; sourceTree = "<group>"; };
 		19FA180E1D7FE2BB0013493F /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
 		19FA180F1D7FE2BB0013493F /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		19FA18111D801ED70013493F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		19FA18121D801ED70013493F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +117,8 @@
 		1901CD3B1C3F4AD5008179B0 = {
 			isa = PBXGroup;
 			children = (
+				19FA18111D801ED70013493F /* LICENSE */,
+				19FA18121D801ED70013493F /* README.md */,
 				19FA180D1D7FE2170013493F /* watermelon */,
 				19FA180B1D7FC03F0013493F /* runtimeDemo.podspec */,
 				19CFC97B1C8538E800CBA0A5 /* PersonModel.h */,
@@ -302,6 +308,7 @@
 				1901CD571C3F4AD6008179B0 /* LaunchScreen.storyboard in Resources */,
 				1901CD541C3F4AD6008179B0 /* Assets.xcassets in Resources */,
 				1901CD521C3F4AD6008179B0 /* Main.storyboard in Resources */,
+				19FA18131D801ED70013493F /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +348,7 @@
 				1901CD7C1C3F53B7008179B0 /* UILabel+Color.m in Sources */,
 				19FA18101D7FE2BB0013493F /* Test.m in Sources */,
 				1901CD491C3F4AD5008179B0 /* main.m in Sources */,
+				19FA18141D801ED70013493F /* README.md in Sources */,
 				19C2426B1C7EE8F600032773 /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
